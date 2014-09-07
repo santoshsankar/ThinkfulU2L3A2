@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		A251E42819BCB94A0035E02F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A251E42719BCB94A0035E02F /* main.swift */; };
+		A251E42F19BCBDD80035E02F /* car.swift in Sources */ = {isa = PBXBuildFile; fileRef = A251E42E19BCBDD80035E02F /* car.swift */; };
+		A251E43119BCC21E0035E02F /* turbocar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A251E43019BCC21E0035E02F /* turbocar.swift */; };
+		A251E43319BCC24D0035E02F /* hybridcar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A251E43219BCC24D0035E02F /* hybridcar.swift */; };
+		A251E43519BCCC3E0035E02F /* pickuptruck.swift in Sources */ = {isa = PBXBuildFile; fileRef = A251E43419BCCC3E0035E02F /* pickuptruck.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		A251E42419BCB9490035E02F /* CarManufacturing */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CarManufacturing; sourceTree = BUILT_PRODUCTS_DIR; };
 		A251E42719BCB94A0035E02F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		A251E42E19BCBDD80035E02F /* car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = car.swift; sourceTree = "<group>"; };
+		A251E43019BCC21E0035E02F /* turbocar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = turbocar.swift; sourceTree = "<group>"; };
+		A251E43219BCC24D0035E02F /* hybridcar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = hybridcar.swift; sourceTree = "<group>"; };
+		A251E43419BCCC3E0035E02F /* pickuptruck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pickuptruck.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				A251E42719BCB94A0035E02F /* main.swift */,
+				A251E42E19BCBDD80035E02F /* car.swift */,
+				A251E43019BCC21E0035E02F /* turbocar.swift */,
+				A251E43219BCC24D0035E02F /* hybridcar.swift */,
+				A251E43419BCCC3E0035E02F /* pickuptruck.swift */,
 			);
 			path = CarManufacturing;
 			sourceTree = "<group>";
@@ -118,6 +130,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A251E43119BCC21E0035E02F /* turbocar.swift in Sources */,
+				A251E43519BCCC3E0035E02F /* pickuptruck.swift in Sources */,
+				A251E42F19BCBDD80035E02F /* car.swift in Sources */,
+				A251E43319BCC24D0035E02F /* hybridcar.swift in Sources */,
 				A251E42819BCB94A0035E02F /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
